@@ -4,7 +4,10 @@
 
 A single, standalone version of [Preact](https://github.com/preactjs/preact), [HTM](https://github.com/developit/htm) and [Preact Signals](https://github.com/preactjs/signals). No external dependencies, just one single file.
 
-One single file that you can use via [CDN](https://cdn.jsdelivr.net/npm/preact-htm-signals-standalone/dist/standalone.js) or [download locally](https://github.com/mujahidfa/preact-htm-signals-standalone/blob/main/dist/standalone.js) for offline use.
+One single file that you can use via [CDN](https://cdn.jsdelivr.net/npm/@nichoth/preact-htm-signals-standalone/dist/standalone.js) or [download locally](https://github.com/nichoth/preact-htm-signals-standalone/blob/main/dist/standalone.js) for offline use.
+
+## fork
+This is a fork of [mujahidfa/preact-htm-signals-standalone](https://github.com/mujahidfa/preact-htm-signals-standalone), so that I can eliminate 1 source of trust in my dependencies.
 
 ## Usage
 
@@ -17,7 +20,7 @@ One single file that you can use via [CDN](https://cdn.jsdelivr.net/npm/preact-h
     html,
     render,
     signal,
-  } from "https://cdn.jsdelivr.net/npm/preact-htm-signals-standalone/dist/standalone.js";
+  } from "https://cdn.jsdelivr.net/npm/@nichoth/preact-htm-signals-standalone/dist/standalone.js";
 
   const count = signal(0);
 
@@ -105,7 +108,7 @@ All rights belong to [Preact](https://github.com/preactjs/preact), [HTM](https:/
 Install and bundle them (via [Microbundle](https://github.com/developit/microbundle)):
 
 ```sh
-git clone https://github.com/mujahidfa/preact-htm-signals-standalone.git
+git clone https://github.com/nichoth/preact-htm-signals-standalone.git
 cd preact-htm-signals-standalone
 pnpm i
 pnpm bundle
