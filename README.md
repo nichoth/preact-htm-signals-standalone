@@ -1,7 +1,4 @@
 # Preact + HTM + Preact Signals standalone
-
-[![](https://data.jsdelivr.com/v1/package/npm/preact-htm-signals-standalone/badge)](https://www.jsdelivr.com/package/npm/preact-htm-signals-standalone)
-
 A single, standalone version of [Preact](https://github.com/preactjs/preact), [HTM](https://github.com/developit/htm) and [Preact Signals](https://github.com/preactjs/signals). No external dependencies, just one single file.
 
 One single file that you can use via [CDN](https://cdn.jsdelivr.net/npm/@nichoth/preact-htm-signals-standalone/dist/standalone.js) or [download locally](https://github.com/nichoth/preact-htm-signals-standalone/blob/main/dist/standalone.js) for offline use.
