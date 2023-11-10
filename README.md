@@ -24,7 +24,7 @@ This is a fork of [mujahidfa/preact-htm-signals-standalone](https://github.com/m
   function App() {
     return html`
       <div>
-        <h1 class>Hello World!</h1>
+        <h1 class="hello">Hello World!</h1>
         <button onClick=${() => (count.value += 1)}>
           Increment with signal
         </button>
