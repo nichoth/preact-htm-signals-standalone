@@ -7,6 +7,7 @@
   "module": "dist/standalone.js",
   "umd:main": "dist/standalone.umd.js",
   "scripts": {
+    "postversion": "git push && git push --tags && npm publish",
     "bundle": "microbundle index.js -o ./dist/standalone.js -f es,umd --no-sourcemap --target web"
   },
   "repository": "mujahidfa/preact-htm-signals-standalone",
